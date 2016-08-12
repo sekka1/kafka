@@ -6,7 +6,7 @@ RUN apt-get update; \
     apt-get install -y unzip  \
     wget jq
 
-ENV KAFKA_VER 0.10.0.0
+ENV KAFKA_VER 0.10.0.1
 
 # Install Kafka
 RUN curl http://mirror.cc.columbia.edu/pub/software/apache/kafka/${KAFKA_VER}/kafka_2.10-${KAFKA_VER}.tgz | tar xz -C /opt
