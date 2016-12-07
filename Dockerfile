@@ -23,4 +23,6 @@ RUN chmod 777 /opt/scripts/*
 # Add jar file to kafka libs
 ADD ./jars/* /opt/kafka/libs/
 
+ADD ./server.properties /opt/kafka/config/server.properties
+
 ENTRYPOINT ["/opt/scripts/run.sh"]
