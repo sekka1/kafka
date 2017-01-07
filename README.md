@@ -14,10 +14,10 @@ Kafka 2
      -p 9092:9092 \
      -v /opt/kafka/config/server.properties:/opt/kafka/config/server.properties \
      -v /opt/kafka/data:/tmp/kafka-logs \
-     garland/kafka2:dev
+     garland/kafka:2.11-0.10.1.1
 
-## CoreOS machine setup
+## Docker compose
+There is a docker-compose file that will startup a zookeeper container and then
+the Kafka container.
 
-There are Ansible playbooks to help provision up a CoreOS machine with the folders and files it needs:
-
-https://github.com/Vungle/ansible
+    docker-compose up

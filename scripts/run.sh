@@ -12,4 +12,4 @@ done
 #
 # Starting Kafka
 #
-/opt/kafka/bin/kafka-server-start.sh ${KAFKA_CFG}
+exec /opt/kafka/bin/kafka-server-start.sh ${KAFKA_CFG}
