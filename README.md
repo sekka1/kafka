@@ -8,6 +8,8 @@ Kafka 2
 * 2.11-0.10.1.1
 * kafka_2.12-0.10.2.0
 
+- [`kafka_2.12-0.10.2.0` (*kafka_2.12-0.10.2.0/Dockerfile*)](https://github.com/sekka1/kafkan/blob/kafka_2.12-0.10.2.0/kafka_2.12-0.10.2.0/Dockerfile)
+
 ## Starting the Container
 
      docker run \
